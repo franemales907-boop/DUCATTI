@@ -1,0 +1,160 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    background-color: #fff;
+}
+.maxw{
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    margin-left: 151px;
+    margin-right: 151px;
+    margin-top: 61px;
+}
+.bijeli{
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 0 40px 30px 0 rgba(60, 49, 13, 0.15);
+}
+.bijeli-livo{
+    margin-left: 61px;
+    margin-top: 37px;
+    max-width: fit-content;
+    margin-bottom: 67px;
+}
+.bijeli-livo h6{
+    color: #181818;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 0;
+    margin-top: 13px;
+}
+.bijeli-livo p{
+    color: #181818;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 121%; /* 29.04px */
+    letter-spacing: 2.28px;
+    margin-top: 0;
+}
+.bijeli-desno{
+    color: #707070;
+    font-family: Italianno;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 102%; /* 51px */
+    letter-spacing: 6.75px;
+    margin-right: 104px;
+    margin-top: 270px;
+    padding: 0;
+    width: 341px;
+    height: 102px;
+    margin-bottom: 78px;
+}
+.boje-odabir{
+    margin-top: 266px;
+    margin-right: 104px;
+    margin-left: 182px;
+}
+.boje-odabir button{
+    width: 90px;
+    height: 90px;
+    border-radius: 16px;
+    border-color: transparent;
+}
+.boje-odabir button:not(.black){
+    width: 80px;
+    height: 80px;
+}
+.red{
+    background-color: #DF1F26;
+    filter: drop-shadow(0 4px 16px rgba(0, 0, 0, 0.15));
+}
+.black{
+    background-color: #141414;
+    filter: drop-shadow(0 4px 32px rgba(0, 0, 0, 0.60));
+    margin-left: 65px;
+}
+.grey{
+    background-color: #E4E4E4;
+    filter: drop-shadow(0 4px 16px rgba(0, 0, 0, 0.15));
+    margin-left: 65px;
+}
+.header-desno nav{
+    display: inline;
+}
+.header-desno{
+    margin-left: 0;
+    padding-left: 0;
+}
+.logo{
+    width: 110px;
+    height: 117px;
+    margin-right: 220px;
+    padding: 0;
+    text-align: center;
+    margin-left: 574px;
+}
+.header-livo{
+    margin-right: 0;
+    padding-right: 0;
+}
+.header-desno nav>a{
+    color: #000;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.19px;
+    text-decoration: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 7px;
+}
+a:first-child{
+    border-right: solid 2px #000;
+}
+.bijeli-desno p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.prvi{
+    text-align: start;
+}
+.drugi{
+    text-align: end;
+}
+h1{
+    text-align: center;
+    color: #FFF;
+    text-shadow: 0 4px 32px rgba(0, 0, 0, 0.60);
+    font-family: Lato;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: -275px;
+}
+.monster{
+    text-align: center;
+    margin-top: 45px;
+}
+.motor{
+    text-align: center;
+    margin-bottom: -230px;
+}
+button:hover{
+    cursor: pointer;
+}
