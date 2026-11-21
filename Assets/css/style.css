@@ -85,7 +85,7 @@ header{
 }
 .red{
     background-color: #DF1F26;
-    filter: drop-shadow(0 4px 16px rgba(0, 0, 0, 0.15));
+    filter: drop-shadow(0 4px 32px rgba(0, 0, 0, 0.60));
 }
 .black{
     background-color: #141414;
